@@ -50,7 +50,7 @@ git clone https://github.com/userManny/Rush-Hour.git
 # Open the folder in your code editor
 # Run the index.html file in any browser
 
-
+---
 🌐 Play Online
 If hosted on GitHub Pages, you can play here:
 👉 [**Play Rush Hour**](https://usermanny.github.io/Rush-Hour/)
