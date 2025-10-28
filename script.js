@@ -124,3 +124,30 @@ function gameLoop() {
 
   requestAnimationFrame(gameLoop);
 }
+// ✅ Touch Controls for Mobile
+let touchStartX = null;
+
+canvas.addEventListener("touchstart", (e) => {
+  touchStartX = e.touches[0].clientX;
+});
+
+canvas.addEventListener("touchmove", (e) => {
+  if (!gameRunning) return;
+  const touchX = e.touches[0].clientX;
+
+  // Move car based on finger movement
+  if (touchStartX !== null) {
+    const diff = touchX - touchStartX;
+    carX += diff * 0.2; // adjust sensitivity if needed
+    if (carX < 50) carX = 50;
+    if (carX > 310) carX = 310;
+  }
+
+  touchStartX = touchX;
+});
+
+canvas.addEventListener("touchend", () => {
+  touchStartX = null;
+});
+
+
