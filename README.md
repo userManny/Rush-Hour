@@ -36,7 +36,8 @@ Run the index.html file in any browser.
 
 🌐 Play Online
 If hosted on GitHub Pages, you can play here:
-👉 Play Rush Hour.
+👉 [**Play Rush Hour**](https://usermanny.github.io/Rush-Hour/)
+
 
 📜 License
 This project is open-source and available under the MIT License.
