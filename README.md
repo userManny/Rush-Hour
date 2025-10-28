@@ -50,15 +50,15 @@ git clone https://github.com/userManny/Rush-Hour.git
 
 # Open the folder in your code editor
 # Run the index.html file in any browser
+``` 
 
+## 🌐 Play Online  
+If hosted on GitHub Pages, you can play here:  
+👉 [**Play Rush Hour**](https://usermanny.github.io/Rush-Hour/)  
 
-🌐 Play Online
-If hosted on GitHub Pages, you can play here:
-👉 [**Play Rush Hour**](https://usermanny.github.io/Rush-Hour/)
+---
 
-
-
-📜 License
+## 📜 License  
 This project is open-source and available under the [MIT License](LICENSE).
 
 .
