@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <canvas id="gameCanvas" width="400" height="500"></canvas>
+    <div id="menu" class="menu">
+      <h2>🚗 Car Game</h2>
+      <button id="startBtn">Start Game</button>
+      <button id="instructionsBtn">Instructions</button>
+      <button id="quitBtn">Quit</button>
+      <div id="instructions" class="hidden">
+        <p>➡️ Press <b>A</b> or <b>Left Arrow</b> to move left</p>
+        <p>➡️ Press <b>D</b> or <b>Right Arrow</b> to move right</p>
+        <p>Avoid the yellow cars and score points!</p>
+        <button id="backBtn">Back</button>
+      </div>
+    </div>
+    <div id="gameOver" class="hidden">
+      <h2>💥 Game Over!</h2>
+      <p id="finalScore"></p>
+      <button id="restartBtn">Restart</button>
+      <button id="backToMenuBtn">Back to Menu</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
